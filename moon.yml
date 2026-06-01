@@ -1,0 +1,10 @@
+id: root
+
+workspace:
+  inheritedTasks:
+    include: []
+
+tasks:
+  compile:
+    command: "tsp compile ./src/main.tsp --output ./dist"
+    dependsOn: []
