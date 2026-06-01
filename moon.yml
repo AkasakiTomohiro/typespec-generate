@@ -6,5 +6,5 @@ workspace:
 
 tasks:
   compile:
-    command: "tsp compile ./src/main.tsp --output ./dist"
+    command: "pnpm tsp compile ./typespec/main.tsp"
     dependsOn: []
